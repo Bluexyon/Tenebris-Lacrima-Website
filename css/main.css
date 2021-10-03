@@ -1,0 +1,57 @@
+{
+    border: solid 1px white;
+}
+@font-face
+        {font-family: OHno; src: url("../fonts/ApexMk2-Regular.otf");}
+
+html{
+    background-color: black;
+    font-family: Sans-Serif;
+    color: white;
+}
+html a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+}
+#LOGO{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+    width: 10%;
+}
+
+.navigation{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.navigation div{
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.navigation a{
+    font-family: OHno, sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navigation a:hover{
+    color:#8D5BFF;
+}
+
+footer{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#madeby{
+    grid-column: 3/4;
+    text-align: center;
+}
+

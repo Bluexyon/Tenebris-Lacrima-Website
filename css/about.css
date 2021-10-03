@@ -1,0 +1,16 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+main div{
+    grid-column: 2/3;
+}
+
+main h1{
+    text-align: center;
+}
+ main div p,main div h2{
+    margin-left: 20px;
+    margin-right: 20px;
+ }
