@@ -1,0 +1,97 @@
+body
+{
+    background-color: rgb(120, 106, 202);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#sussybaka
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+#body
+{
+    border-top-left-radius: 95px;
+    border-top-right-radius: 95px;
+    border: 15px solid;
+    background-color: red;
+    height: 350px;
+    width: 250px;
+    box-shadow: inset 60px -50px 39px rgb(80, 0, 0);
+    position: relative;
+    z-index: auto;
+    top: 100px;
+}
+#backpack
+{
+    height: 250px;
+    width: 50px;
+    background-color: red;
+    border: 15px solid;
+    position: relative;
+    bottom: 330px;
+    right: 65px;
+    border-top-left-radius: 49px;
+    border-bottom-left-radius: 30px;
+    box-shadow: inset 40px -35px 50px rgb(80, 0, 0);
+}
+#rightLeg
+{
+    background-color: rgb(81, 0, 0);
+    /*box-shadow: inset 40px -35px 175px 35px rgb(81, 0, 0);*/
+    border: 15px solid;
+    height: 125px;
+    width: 100px;
+    position: relative;
+    bottom: 325px;
+    border-bottom-right-radius: 49px;
+    border-bottom-left-radius: 40px;
+    border-top: none;
+    z-index: 10;
+}
+#leftLeg
+{
+    background-color: rgb(81, 0, 0);
+    /*box-shadow: inset 40px -35px 175px 35px ;*/
+    border: 15px solid;
+    height: 125px;
+    width: 100px;
+    position: relative;
+    bottom: 465px;
+    left: 150px;
+    border-bottom-right-radius: 49px;
+    border-bottom-left-radius: 40px;
+    border-top: none;
+}
+
+#visor{
+    background: lightblue;
+    border: 15px solid black;
+    border-radius: 70px;
+    box-shadow: inset 35px -30px 15px -10px rgb(0, 50, 116);
+    height: 100px;
+    width: 200px;
+    position: relative;
+    bottom: 200px;
+    left: 100px;
+}
+
+#specle{
+    background: white;
+    position: relative;
+    border: 1px solid white;
+    border-top-left-radius: 40px;
+    box-shadow: 0px 0px 15px white;
+    border-radius: 40px;
+    bottom:-100px;
+    left: 130px;
+    top: 5px;
+    height: 20px;
+    width: 40px;
+}
